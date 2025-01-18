@@ -33,6 +33,7 @@ const AuthLayouts = (props) => {
   );
 };
 
+// Opsi untuk conditional rendering
 const AuthNavigation = ({ type }) => {
   if (type === "login") {
     return (
